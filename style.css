@@ -5,7 +5,7 @@
 }
 
 body {
- background: black 
+  background: black 
 }
 
 body * {
@@ -14,8 +14,8 @@ body * {
 }
 
 #container {
-    width: 360px;
-    margin: 56px auto 0px;
+  width: 360px;
+  margin: 56px auto 0px;
 }
 
 #profile {
@@ -24,7 +24,7 @@ body * {
 }
 
 #profile img {
- width: 112px;
+  width: 112px;
 }
 
 #profile p {
@@ -34,22 +34,17 @@ body * {
 }
 
 ul {
-
- list-style: none;
- display: flex;
- flex-direction: column;
- gap: 16px;
-
- padding: 24px 0px;
-
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 24px 0px;
 }
 
 ul li a {
-
   display: flex;
   align-items: center;
   justify-content: center;
-
   padding: 10px 24px;
   background: rgba(255, 255, 255, 0.1);
   border: 1px solid rgba(255, 255, 255, 0.5);
@@ -58,27 +53,20 @@ ul li a {
   -webkit-backdrop-filter: blur (4px);
   text-decoration: none;
   font-weight: 500;
-
   transition: background .2s;
-
 }
 
 ul li a:hover {
-
   background: rgba(255, 255, 255, 0.05);
   border: 1.5px solid white;
 }
 
 #social-links {
-
   display: flex;
   justify-content: center;
   gap: 32px;
-
   padding: 24px 0px;
-
-  font-size: 24px;
-  
+  font-size: 24px; 
 }
 
 #social-links a {
@@ -86,7 +74,6 @@ ul li a:hover {
   align-items: center;
   justify-content: center;
   padding: 16px;
-  
   transition: background 0.2s;
   border-radius: 50%;
 }
